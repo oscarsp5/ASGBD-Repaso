@@ -12,6 +12,8 @@
 Contiene repaso sobre ejercicios MyQSL
 <br>
 <br>
+Videos de repaso: 
+<br>
 <ul>
   <li><a href="https://www.youtube.com/watch?v=puxyzSGdBhg&list=PLCTD_CpMeEKQmH9cRKWWHahygZFtIdwYG&index=18">Consultas avanzadas</a></li>
   <li><a href="https://www.youtube.com/watch?v=o6cHAEFxDBI&list=PLCTD_CpMeEKQmH9cRKWWHahygZFtIdwYG&index=23">Variables MySQL</a></li>
