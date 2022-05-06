@@ -5,7 +5,7 @@
   <li>MySQL</li>
 </ul>
 
-<h2>📎 Videos cogidos del canas de youtube: </h2>
+<h2>📎 Videos cogidos del canal de youtube: </h2>
 <p>https://www.youtube.com/channel/UCekiUWTObDKZnaeS-reYQbg</p>
 
 <h2>📂 Que contiene:</h2>
