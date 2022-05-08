@@ -17,6 +17,26 @@ delimiter;
 
 <h4>Ejemplo:</h4>
 
+```sql
+DROP PROCEDURE IF EXISTS NOMBRE$$
+CREATE PROCEDURE  NOMBRE( )
+BEGIN
+    DECLARE num_filas INT DEFAULT 0;
+    DECLARE cuenta_bucle INT DEFAULT 0;
+	DECLARE nombre_cursor CURSOR FOR
+        SELECT XXX;
+    SELECT found_rows() INTO num_filas;
+    OPEN cursor_act_despachos;
+    WHILE cuenta_bucle < num_filas DO
+		BEGIN 
+            FETCH nombre_cursor INTO vars;
+	SET cuenta_bucle = cuenta_bucle + 1;
+        END;
+    END WHILE;
+    CLOSE nombre_cursor;
+END $$
+```
+
 ## Eventos
 
 ```sql
