@@ -1,6 +1,6 @@
 <h1>💻 Estructuras</h1>
 
-<h2>⌨ Cursores/Procedimientos Almacenados</h2>
+<h2>⌨ Procedimientos Almacenados</h2>
 
 <p>Es una porcion de codigo que puedes guardar y reutilizar, se usa cuando repites la misma tarea repetidas veces, siendo un buen metodo para encapsular codigo</p>
 
@@ -18,23 +18,18 @@ delimiter;
 <h4>Ejemplo:</h4>
 
 ```sql
-DROP PROCEDURE IF EXISTS NOMBRE$$
-CREATE PROCEDURE  NOMBRE( )
+DROP PROCEDURE IF EXISTS anioactual;
+DELIMITER @@
+CREATE PROCEDURE anioactual()
 BEGIN
-    DECLARE num_filas INT DEFAULT 0;
-    DECLARE cuenta_bucle INT DEFAULT 0;
-	DECLARE nombre_cursor CURSOR FOR
-        SELECT XXX;
-    SELECT found_rows() INTO num_filas;
-    OPEN cursor_act_despachos;
-    WHILE cuenta_bucle < num_filas DO
-		BEGIN 
-            FETCH nombre_cursor INTO vars;
-	SET cuenta_bucle = cuenta_bucle + 1;
-        END;
-    END WHILE;
-    CLOSE nombre_cursor;
-END $$
+    -- Podemos declarar variables
+        DECLARE var_1 INT DEFAULT 0;
+	-- Instrucciones aquí --
+    -- Devuelvo la sentencia select:
+    SELECT YEAR(CURDATE());
+END @@
+DELIMITER ;
+CALL anioactual()
 ```
 
 ## Eventos
