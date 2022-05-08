@@ -1,25 +1,16 @@
 <h1>💻 Estructuras</h1>
 
-## Cursores
+<h2>⌨ Cursores/Procedimientos Almacenados</h2>
+
+<p>Es una porcion de codigo que puedes guardar y reutilizar, se usa cuando repites la misma tarea repetidas veces, siendo un buen metodo para encapsular codigo</p>
 
 ```sql
-DROP PROCEDURE IF EXISTS NOMBRE$$
-CREATE PROCEDURE  NOMBRE( )
-BEGIN
-    DECLARE num_filas INT DEFAULT 0;
-    DECLARE cuenta_bucle INT DEFAULT 0;
-	DECLARE nombre_cursor CURSOR FOR
-        SELECT XXX;
-    SELECT found_rows() INTO num_filas;
-    OPEN cursor_act_despachos;
-    WHILE cuenta_bucle < num_filas DO
-		BEGIN 
-            FETCH nombre_cursor INTO vars;
-	SET cuenta_bucle = cuenta_bucle + 1;
-        END;
-    END WHILE;
-    CLOSE nombre_cursor;
-END $$
+delimiter //
+CREATE PROCEDURE nombreprocedimiento (in varEntrada tipo,out varSalida tipo)
+begin
+	select * from tabla;
+end //
+delimiter;
 ```
 
 ## Eventos
