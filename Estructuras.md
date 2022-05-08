@@ -4,6 +4,8 @@
 
 <p>Es una porcion de codigo que puedes guardar y reutilizar, se usa cuando repites la misma tarea repetidas veces, siendo un buen metodo para encapsular codigo</p>
 
+<h4>Estrucutura:</h4>
+
 ```sql
 delimiter //
 CREATE PROCEDURE nombreprocedimiento (in varEntrada tipo,out varSalida tipo)
@@ -12,6 +14,8 @@ begin
 end //
 delimiter;
 ```
+
+<h4>Ejemplo:</h4>
 
 ## Eventos
 
