@@ -21,3 +21,5 @@ Videos de repaso:
   <li><a href="https://www.youtube.com/watch?v=J6SifVJTgd0&list=PLCTD_CpMeEKQmH9cRKWWHahygZFtIdwYG&index=26">Trigger</a></li>
   </ul>
 
+<h2>🧾 Estructuras</h2>
+<p><a href="https://github.com/oscarsp5/ASGBD-Repaso/blob/main/Estructuras.md">📎 Pagina con las Estructuras Trigger,Eventos y Cursores</p>
