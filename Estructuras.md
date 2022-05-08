@@ -11,7 +11,7 @@ delimiter //
 CREATE PROCEDURE nombreprocedimiento (in varEntrada tipo,out varSalida tipo)
 begin
 	select * from tabla;
-end //
+end//
 delimiter;
 ```
 
