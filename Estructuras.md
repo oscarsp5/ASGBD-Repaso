@@ -32,7 +32,7 @@ STARTS "2021-12-31 05:00:00" -- current_timestamp() + INTERVAL 1 minute
 ENDS current_timestamp() + INTERVAL 1 minute|year|month
 DO
 BEGIN
-    -- AQUÍ COSAS
+    -- Contenido
 END
 ```
 
