@@ -2,7 +2,7 @@
 
 <h2>⌨ Contiene codigo:</h2>
 <ul>
-  <li>MySQL</li>
+  <li>sql</li>
 </ul>
 
 <h2>📎 Videos cogidos del canal de youtube: </h2>
